@@ -59,8 +59,7 @@ class HomeController extends Controller
 
 Salam Sejahtera bagi Kita Semua, Puji dan syukur senantiasa kita panjatkan ke hadirat Tuhan Yang Maha Esa, karena atas rahmat, karunia, dan izin-Nya, kita semua masih senantiasa diberikan kesehatan dan kekuatan untuk terus mengabdi pada dunia kesehatan di Indonesia.
 
-Mengawali sapaan ini, atas nama pengurus Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Wilayah Jawa Tengah, saya menyambut dengan rasa gembira, bangga, dan penuh rasa syukur atas aktifnya kembali website resmi PERSI. Kehadiran kembali portal digital ini bukanlah sekadar pelengkap administratif, melainkan sebuah lompatan strategis yang telah lama kita nantikan bersama untuk menjadikan platform ini sebagai pusat informasi perumahsakitan yang terpadu, andal, dan
-responsif.
+Mengawali sapaan ini, atas nama pengurus Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Wilayah Jawa Tengah, saya menyambut dengan rasa gembira, bangga, dan penuh rasa syukur atas aktifnya kembali website resmi PERSI. Kehadiran kembali portal digital ini bukanlah sekadar pelengkap administratif, melainkan sebuah lompatan strategis yang telah lama kita nantikan bersama untuk menjadikan platform ini sebagai pusat informasi perumahsakitan yang terpadu, andal, dan responsif.
 
 Bapak/Ibu pimpinan rumah sakit dan seluruh insan perumahsakitan yang saya banggakan, Kita semua sangat menyadari bahwa mengelola rumah sakit di era saat ini adalah sebuah tugas yang sangat menantang dan kompleks. Lanskap layanan kesehatan terus bergerak dinamis. Hampir setiap hari kita dihadapkan pada dinamika operasional yang membutuhkan pengambilan keputusan yang cepat dan tepat. Kita dihadapkan pada serangkaian regulasi baru dari pemerintah yang menuntut adaptasi sistemik secara terus-menerus. Di sisi lain, kita juga sama-sama merasakan bagaimana pola pembiayaan rumah sakit saat ini menjadi semakin sulit dan berliku.
 

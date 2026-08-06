@@ -698,47 +698,79 @@
                         <div class="jabatan">Pembiayaan dan Sistem Jaminan Kesehatan</div>
                         <div class="nama">Ketua: dr. Pujianto, M.Kes</div>
                         <div class="gelar">Sekretaris: dr. Susi Herawati, M.Kes, FISQua</div>
+                        <div class="gelar">Anggota : 1. dr. Alek Jusran, M.Kes</div>
+                        <div class="gelar"> 2. dr. Nonot Mulyono, M.Kes</div>
+                        <div class="gelar">3. dr. Any Rusydiani, M.Kes</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Alat Kesehatan, Farmasi dan HTA</div>
                         <div class="nama">Ketua: drg. Erwita Dinarsari, MARS</div>
                         <div class="gelar">Sekretaris: dr. Alice Sutedjo Lisa, MKM</div>
+                        <div class="gelar">Anggota : 1. dr. Haryadi Ibnu Junaedi, Sp.B, FINACS</div>
+                        <div class="gelar">3. Apt. Heru Dwi Purnomo, M.Sc</div>
+                        <div class="gelar">2. dr. Sri Pratomo, Sp.B, FinaCS, FICS, CHAE, CPCCP</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Data, Informasi dan Transformasi Digital RS</div>
                         <div class="nama">Ketua: dr. Kelvin Kurniawan M.Kes</div>
                         <div class="gelar">Sekretaris: dr. Dyah Winastuti, M.Kes</div>
+                        <div class="gelar">Anggota : 1. drg. Gustantyo Wahyu Wibowo, Sp.KG, FICD, FWSI</div>
+                        <div class="gelar">2. dr. M. Riza Setiawan, MOSH, FISQua</div>
+                        <div class="gelar">3. drg. Afaf, MM</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Humas dan Komunikasi Publik</div>
                         <div class="nama">Ketua: dr. Hilal Ariadi, M.Kes, FISQua</div>
                         <div class="gelar">Sekretaris: dr. Ivo Devi Kristyani, M.Si. Med., Sp.B, FINACS</div>
+                        <div class="gelar">Anggota : 1. dr. Aditya Nugraha, M.Biomed, M.M., C.M.C, AAAK, CHIA</div>
+                        <div class="gelar">2. Dr. (Cand.) dr. Anita Widi Hastuti, Sp.THT-BKL., MH, MARS, FRSPH,FISQua.
+                        </div>
+                        <div class="gelar">3. drg. Endang Nuriyati</div>
+                        <div class="gelar">4. Ns. Nugroho Lazuardi, S.Kep, M.Kep</div>
+
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Penunjang Medis, Nonmedis dan Kesiapsiagaan Bencana</div>
                         <div class="nama">Ketua: Dr. dr. Mochamad Abdul Hakam, Sp.PD, FINASIM</div>
                         <div class="gelar">Sekretaris: Ns. Kurnia Yuliastuti, M.Kep</div>
+                        <div class="gelar">Anggota : 1. dr. Sarwoko Oetomo, MMR, FISQua</div>
+                        <div class="gelar">2. dr. Aris Munandar, M.H</div>
+                        <div class="gelar">3. dr. Aswin Wikantama, Sp.An., M.A.R.S., FISQua</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Mutu, Keselamatan Pasien dan Tata Kelola RS</div>
                         <div class="nama">Ketua: dr. Yuswanti, MHSc, FISQua</div>
                         <div class="gelar">Sekretaris: dr. Sri Mulyani, Sp.A, M.Kes, FISQua</div>
+                        <div class="gelar">Anggota : 1. dr. Elfira Fawzia, MARS, FISQua</div>
+                        <div class="gelar">2. dr. Ahmad Syaifuddin, M.Kes</div>
+                        <div class="gelar">3. dr. Zaki Mubarok, M.M</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Penelitian, Pengembangan dan Jejaring Strategis</div>
                         <div class="nama">Ketua: dr. Prihatin Iman Nugroho, Sp.P, M.Kes, FISR</div>
                         <div class="gelar">Sekretaris: dr. Santi Kristiani, Sp.PK</div>
+                        <div class="gelar">Anggota : 1. Dr. dr. Abdul Hakam, M.Si.Med., Sp.A</div>
+                        <div class="gelar">2. Ns. Sri Wuri Handayani, S.Kep., MM., MH.,C.Med.,Sp.Kes., FISQua</div>
+                        <div class="gelar">3. dr. Amrozi Taufik, M.Kes</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">SDM dan Pendidikan Berkelanjutan</div>
                         <div class="nama">Ketua: Ir. Vivi Vira Viridianti, M.Kes, DHM, MH, C.Med.Sp.Kes</div>
                         <div class="gelar">Sekretaris: drg. Kriswidiati, M.Kes</div>
+                        <div class="gelar">Anggota : 1. dr. Dedi Prasetya, Sp.BA, MMR, FIAPS</div>
+                        <div class="gelar">2. Yuda Ayu Timorita, S.Kep, Ns, M.Kep, FISQua, CHAE, CHMEE, CHCEE</div>
+                        <div class="gelar">3. dr. Ahmad Shohibul Birry, MSI, MMR</div>
+                        <div class="gelar">4. drg. Francisca Assisi Titis Pamungkas, M.M</div>
                     </div>
                     <div class="org-card">
                         <div class="jabatan">Hukum, Advokasi, Mediasi dan Penguatan Organisasi</div>
                         <div class="nama">Ketua: KBP P Dr. drg. Jaka Kusnanta Wahyuntara, Sp.BMMF, Subsp.
                             TMF-TMJ(K), SH, MH, CMC CCD, FISQua</div>
                         <div class="gelar">Sekretaris: dr. Bianti Hastuti Machroes, MH, Sp.FM</div>
+                        <div class="gelar">Anggota : 1. dr. Zulfachmi Wahab, Sp.PD-KHOM. FINASIM</div>
+                        <div class="gelar">2. dr. Akbar Kurniawan, M.Kes, M.H.</div>
+                        <div class="gelar">3. Dr. dr. Kinik Darsono, M.Med.Ed, FISQua</div>
+                        <div class="gelar">4. dr. Zaenal Muttaqin, MARS</div>
                     </div>
                 </div>
             </div>
@@ -751,6 +783,7 @@
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Widyana Grehastuti, Sp.OG, MSi.Med</div>
                         <div class="gelar">Sekretaris: dr. Muhammad Miftahuddin, MARS</div>
+                        <div class="gelar">Anggota : dr. Widayanto, M.Kes</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 reveal is-visible">
@@ -758,8 +791,9 @@
                     <div class="org-card">
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Mohamad Riyatno, M.Kes</div>
-                        <div class="gelar">Sekretaris: dr. Tolkha Amaruddin, M. Kes, Sp.THT-BKL., C.Med, Sp.Kes
-                        </div>
+                        <div class="gelar">Sekretaris: dr. Tolkha Amaruddin, M. Kes, Sp.THT-BKL., C.Med, Sp.Kes</div>
+                        <div class="gelar">Anggota : 1. dr. R. Danang Sananto Sasongko, M.M</div>
+                        <div class="gelar">2. dr. Achirudin Timora, Sp.N, MMR</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 reveal is-visible">
@@ -768,6 +802,8 @@
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Boedi Setiawan, MM</div>
                         <div class="gelar">Sekretaris: dr. Indah Rosiana, MARS, FISQua</div>
+                        <div class="gelar">Anggota : 1. dr. Bambang Santoso, MM</div>
+                        <div class="gelar">2. drg. M. Tryanza Maulana, MM., MARS., MMu., FISQua, CHMEE. CHCEE</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 reveal is-visible">
@@ -775,8 +811,9 @@
                     <div class="org-card">
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Bonis Edi Artoko, MPH</div>
-                        <div class="gelar">Sekretaris: dr. Arief Darmawan, Sp.PD., MARS, C.Med.Sp.Kes, FISQua
-                        </div>
+                        <div class="gelar">Sekretaris: dr. Arief Darmawan, Sp.PD., MARS, C.Med.Sp.Kes, FISQua</div>
+                        <div class="gelar">Anggota : 1. dr. lmam Prasetyo, M.Kes, FlSQua</div>
+                        <div class="gelar">2. dr. Ali Budiarto, M.M., M.K.M.</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 reveal is-visible">
@@ -785,6 +822,8 @@
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Agus Ujianto, M.Si.Med, Sp.B</div>
                         <div class="gelar">Sekretaris: dr. M. Arif Rida, M.M.R.</div>
+                        <div class="gelar">Anggota : 1. dr. Hasti Wulandari, M.K.M.</div>
+                        <div class="gelar">2. dr. Nugroho Aris Kusuma, M.Kes</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 reveal is-visible">
@@ -793,6 +832,8 @@
                         <div class="jabatan">Ketua</div>
                         <div class="nama">dr. Arief Budiman, MSi.Med. Sp.B.MH. MARS, FINACS</div>
                         <div class="gelar">Sekretaris: Yunus, S.Kep.Ners., MARS., FISQua</div>
+                        <div class="gelar">Anggota : 1. dr. Udayanti Proborini, M.Kes</div>
+                        <div class="gelar">2. dr. Setyarini, M.Kes, FlSQua</div>
                     </div>
                 </div>
             </div>
