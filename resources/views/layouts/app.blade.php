@@ -1038,7 +1038,7 @@
                 </div>
             </div>
 
-            <a class="persi-nav-link py-3 border-bottom" href="#">RS Anggota</a>
+            <a class="persi-nav-link py-3 border-bottom" href="{{ route('rs-anggota.index') }}">RS Anggota</a>
             <a class="persi-nav-link py-3 border-bottom" href="#">E-Library</a>
             <a class="persi-nav-link py-3 border-bottom" href="#">Kontak</a>
             <a href="#" class="btn-persi btn-persi-primary mt-3 justify-content-center">Portal Anggota</a>
