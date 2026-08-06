@@ -902,7 +902,7 @@
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <a href="#" class="btn-persi btn-persi-accent">Daftar Keanggotaan</a>
                         <a href="#" class="btn-persi btn-persi-outline"
-                            style="color:#fff;border-color:rgba(255,255,255,0.35);">Hubungi Sekretariat</a>
+                            style="color:#18d50bb2;border-color:rgba(255,255,255,0.35);">Hubungi Sekretariat</a>
                     </div>
                 </div>
             </div>
