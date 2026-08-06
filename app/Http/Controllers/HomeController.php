@@ -30,7 +30,7 @@ class HomeController extends Controller
         // Ambil data statistik rumah sakit
         $jsonPath = storage_path('public/data/rumah_sakit.json');
         $totalRS = 250;
-        $totalKota = 42;
+        $totalKota = 35;
 
         if (File::exists($jsonPath)) {
             $jsonContent = File::get($jsonPath);

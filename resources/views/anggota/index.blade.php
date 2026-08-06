@@ -35,7 +35,7 @@
                     <p class="text-white-50 mt-3 mb-0" style="max-width:560px;font-size:1.05rem;">
                         Terdapat <strong class="text-white">{{ $total }}</strong> rumah sakit anggota yang tersebar
                         di
-                        <strong class="text-white">{{ count($kotaList) }}</strong> kota/kabupaten di seluruh Jawa Tengah.
+                        <strong class="text-white">35</strong> kota/kabupaten di seluruh Jawa Tengah.
                     </p>
                 </div>
                 <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="vr text-white-50"></div>
                         <div class="text-center px-3">
-                            <div class="text-white font-display fw-800" style="font-size:1.6rem;">{{ count($kotaList) }}
+                            <div class="text-white font-display fw-800" style="font-size:1.6rem;">35
                             </div>
                             <div class="text-white-50"
                                 style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;">Kab/Kota</div>

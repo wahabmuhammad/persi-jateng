@@ -208,7 +208,7 @@
         </div>
     </section> --}}
     <!-- Hero Section -->
-    <section class="hero-section position-relative" style="padding-top:64px;padding-bottom:56px;">
+    {{-- <section class="hero-section position-relative" style="padding-top:64px;padding-bottom:56px;">
         <div class="hero-bg-kawung kawung-texture position-absolute top-0 start-0 w-100 h-100" style="z-index:-1;"
             aria-hidden="true"></div>
         <div class="container-persi">
@@ -257,6 +257,66 @@
                             <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1000&q=80"
                                 alt="Pelantikan Pengurus" style="width:100%;height:100%;object-fit:cover;">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <section class="hero-section position-relative">
+        <div class="hero-bg-kawung kawung-texture" aria-hidden="true"></div>
+        <div class="container-persi">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6 reveal is-visible">
+                    <span class="hero-eyebrow mb-4"><span class="dot"></span> Perhimpunan Rumah Sakit Seluruh
+                        Indonesia</span>
+                    <h1 class="hero-title font-display mt-3 mb-4">Menguatkan <span class="accent-underline">rumah
+                            sakit</span> Jawa Tengah yang aman, bermutu, dan berdaya saing</h1>
+                    <p class="hero-lede mb-4">PERSI Wilayah Jawa Tengah menghimpun rumah sakit se-Jawa Tengah untuk
+                        berkolaborasi dalam advokasi kebijakan, peningkatan mutu layanan, dan pengembangan sumber
+                        daya perumahsakitan di 35 kabupaten/kota.</p>
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="{{ route('login') }}" class="btn-persi btn-persi-primary">Bergabung Sebagai Anggota <svg
+                                width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></a>
+                        <a href="#visi-misi" class="btn-persi btn-persi-outline">Visi &amp; Misi</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <div class="num" data-counter data-counter-to="{{ $totalRS ?? 250 }}">0</div>
+                            <div class="label">RS Anggota</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="num" data-counter data-counter-to="{{ $totalKota ?? 35 }}">0</div>
+                            <div class="label">Kab / Kota</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="num" data-counter data-counter-to="40">40</div>
+                            <div class="label">Tahun Mengabdi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal is-visible">
+                    <div class="position-relative">
+                        <div class="hero-media">
+                            <img src="{{ asset('img/img_beranda.jpeg') }}" alt="Pelantikan Pengurus">
+                            <div class="hero-media-caption"><strong>Pengurus PERSI Wilayah Jawa
+                                    Tengah</strong>Semarang, Jawa Tengah</div>
+                        </div>
+                        {{-- <div class="hero-badge-card">
+                            <div class="icon-wrap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2 3 6v6c0 5 3.8 9.4 9 10 5.2-.6 9-5 9-10V6l-9-4Z" stroke="currentColor"
+                                        stroke-width="1.8" stroke-linejoin="round" />
+                                    <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <div>
+                                <div class="fw-bold font-display" style="font-size:0.95rem;">Terakreditasi</div>
+                                <div class="text-muted-custom" style="font-size:0.78rem;">Standar Kemenkes RI
+                                </div>
+                            </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -339,7 +399,8 @@
                     <div class="stat-num"
                         style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.9rem,3vw,2.6rem);color:var(--brass-400);line-height:1;">
                         <span data-counter data-counter-to="{{ $totalRS ?? 250 }}">0</span>
-                        +</div>
+                        +
+                    </div>
                     <div class="stat-label" style="font-size:0.82rem;color:#d7e2d1;margin-top:6px;letter-spacing:0.02em;">
                         Rumah Sakit Anggota</div>
                 </div>
@@ -347,7 +408,7 @@
                     <div class="stat-num"
                         style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.9rem,3vw,2.6rem);color:var(--brass-400);line-height:1;">
                         <span data-counter data-counter-to="{{ $totalKota ?? 42 }}">0</span>
-                        </div>
+                    </div>
                     <div class="stat-label" style="font-size:0.82rem;color:#d7e2d1;margin-top:6px;letter-spacing:0.02em;">
                         Kabupaten / Kota</div>
                 </div>
@@ -355,7 +416,7 @@
                     <div class="stat-num"
                         style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.9rem,3vw,2.6rem);color:var(--brass-400);line-height:1;">
                         <span data-counter data-counter-to="40">0</span>
-                        </div>
+                    </div>
                     <div class="stat-label" style="font-size:0.82rem;color:#d7e2d1;margin-top:6px;letter-spacing:0.02em;">
                         Tahun Berkiprah</div>
                 </div>
@@ -363,7 +424,8 @@
                     <div class="stat-num"
                         style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.9rem,3vw,2.6rem);color:var(--brass-400);line-height:1;">
                         <span data-counter data-counter-to="120">0</span>
-                        +</div>
+                        +
+                    </div>
                     <div class="stat-label" style="font-size:0.82rem;color:#d7e2d1;margin-top:6px;letter-spacing:0.02em;">
                         Program &amp; Pelatihan / Tahun</div>
                 </div>
