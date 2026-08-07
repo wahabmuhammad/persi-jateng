@@ -75,8 +75,7 @@ sebagai:
 
 Rekan-rekan sejawat sekalian, Di tengah badai perubahan regulasi dan sistem pembiayaan kesehatan, ketangguhan kita sedang diuji. Namun saya yakin, dengan kolaborasi, komunikasi yang terbuka, dan semangat untuk saling memajukan, tidak ada tantangan yang tidak bisa kita urai bersama. Saya mengajak seluruh pengurus, pimpinan rumah sakit, tenaga medis, tenaga kesehatan, serta seluruh elemen manajemen rumah sakit di Jawa Tengah untuk aktif memanfaatkan dan meramaikan website ini. Jadikan portal ini sebagai sarana interaktif yang hidup dan memberi manfaat nyata bagi operasional harian di tempat kita mengabdi.
 
-Sebagai penutup, saya memanjatkan doa dan harapan besar, semoga PERSI bisa menjadi RUMAH BESAR kita bersama. Sebuah rumah yang hangat bagi para insan perumahsakitan untuk saling bernaung, saling menguatkan, belajar, tumbuh, dan berkembang menjadi semakin kuat demi mewujudkan pelayanan kesehatan yang paripurna dan berkeadilan bagi seluruh masyarakat Jawa
-Tengah. 
+Sebagai penutup, saya memanjatkan doa dan harapan besar, semoga PERSI bisa menjadi RUMAH BESAR kita bersama. Sebuah rumah yang hangat bagi para insan perumahsakitan untuk saling bernaung, saling menguatkan, belajar, tumbuh, dan berkembang menjadi semakin kuat demi mewujudkan pelayanan kesehatan yang paripurna dan berkeadilan bagi seluruh masyarakat Jawa Tengah. 
 
 Selamat datang di website PERSI. Mari melangkah bersama, bersinergi, dan terus berinovasi. Maju Terus Perumahsakitan Indonesia!
 
