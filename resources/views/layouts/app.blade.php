@@ -917,6 +917,45 @@
         .dropdown-mobile [aria-expanded="true"] .chevron-icon {
             transform: rotate(180deg);
         }
+
+        @keyframes pulse-badge {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .agenda-card-home:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--sage-300);
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .news-card:hover .thumb img {
+            transform: scale(1.07);
+        }
+
+        .text-sage-600 {
+            color: var(--sage-600);
+        }
+
+        /* .chevron-icon {
+            transition: transform .3s ease;
+        }
+
+        button[aria-expanded="true"] .chevron-icon {
+            transform: rotate(180deg);
+        } */
     </style>
 
     @stack('styles')
@@ -977,7 +1016,7 @@
                             data-bs-toggle="dropdown">Informasi</a>
                         <ul class="dropdown-menu shadow border-0" style="border-radius:14px;">
                             <li><a class="dropdown-item py-2" href="#">Berita</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Agenda</a></li>
+                            <li><a class="dropdown-item py-2" href="{{ route('agenda.index') }}">Agenda</a></li>
                             <li><a class="dropdown-item py-2" href="#">Informasi Penting</a></li>
                         </ul>
                     </li>
@@ -996,7 +1035,7 @@
     </nav>
 
     <!-- Offcanvas Mobile -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="persiOffcanvas">
+    {{-- <div class="offcanvas offcanvas-end" tabindex="-1" id="persiOffcanvas">
         <div class="offcanvas-header border-bottom">
             <span class="navbar-brand-title">PERSI Jateng</span>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -1006,15 +1045,15 @@
 
             <!-- Dropdown Tentang Kami (Mobile) -->
             <div class="dropdown-mobile border-bottom">
-                <a class="persi-nav-link py-3 d-flex justify-content-between align-items-center" href="#"
+                <a class="persi-nav-link py-3 d-flex justify-content-between align-items-center" 
                     data-bs-toggle="collapse" data-bs-target="#mobileTentangKami" aria-expanded="false">
                     Tentang Kami
                     <i class="bi bi-chevron-down chevron-icon" style="transition:transform 0.25s ease;"></i>
                 </a>
                 <div class="collapse ps-3 pb-2" id="mobileTentangKami">
-                    <a class="d-block py-2" href="#visi-misi"
+                    <a class="d-block py-2" href="{{ route('home') }}#visi-misi"
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">Visi &amp; Misi</a>
-                    <a class="d-block py-2" href="#struktur-organisasi"
+                    <a class="d-block py-2" href="{{ route('home') }}#struktur-organisasi"
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">Struktur Pengurus</a>
                     <a class="d-block py-2" href="#"
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">AD-ART Persi Jateng</a>
@@ -1023,17 +1062,17 @@
 
             <!-- Dropdown Informasi (Mobile) -->
             <div class="dropdown-mobile border-bottom">
-                <a class="persi-nav-link py-3 d-flex justify-content-between align-items-center" href="#"
+                <a class="persi-nav-link py-3 d-flex justify-content-between align-items-center"
                     data-bs-toggle="collapse" data-bs-target="#mobileInformasi" aria-expanded="false">
                     Informasi
                     <i class="bi bi-chevron-down chevron-icon" style="transition:transform 0.25s ease;"></i>
                 </a>
                 <div class="collapse ps-3 pb-2" id="mobileInformasi">
-                    <a class="d-block py-2" href="#"
+                    <a class="d-block py-2"
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">Berita</a>
-                    <a class="d-block py-2" href="#"
+                    <a class="d-block py-2" 
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">Agenda</a>
-                    <a class="d-block py-2" href="#"
+                    <a class="d-block py-2" 
                         style="color:var(--text-muted);text-decoration:none;font-size:0.9rem;">Informasi Penting</a>
                 </div>
             </div>
@@ -1042,6 +1081,81 @@
             <a class="persi-nav-link py-3 border-bottom" href="#">E-Library</a>
             <a class="persi-nav-link py-3 border-bottom" href="#">Kontak</a>
             <a href="#" class="btn-persi btn-persi-primary mt-3 justify-content-center">Portal Anggota</a>
+        </div>
+    </div> --}}
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="persiOffcanvas">
+        <div class="offcanvas-header border-bottom">
+            <span class="navbar-brand-title">PERSI Jateng</span>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body d-flex flex-column gap-1">
+            <a class="persi-nav-link py-3 border-bottom" href="{{ route('home') }}">
+                Beranda
+            </a>
+
+            <!-- Tentang Kami -->
+            <div class="border-bottom">
+                <button class="btn w-100 text-start d-flex justify-content-between align-items-center px-0 py-3"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#mobileTentangKami"
+                    aria-expanded="false" aria-controls="mobileTentangKami">
+
+                    <span class="persi-nav-link">Tentang Kami</span>
+                    <i class="bi bi-chevron-down chevron-icon"></i>
+                </button>
+
+                <div class="collapse" id="mobileTentangKami">
+                    <div class="ps-3 pb-2">
+                        <a class="d-block py-2 text-decoration-none" href="{{ route('home') }}#visi-misi">
+                            Visi & Misi
+                        </a>
+
+                        <a class="d-block py-2 text-decoration-none" href="{{ route('home') }}#struktur-organisasi">
+                            Struktur Pengurus
+                        </a>
+
+                        <a class="d-block py-2 text-decoration-none" href="#">
+                            AD-ART Persi Jateng
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Informasi -->
+            <div class="border-bottom">
+                <button class="btn w-100 d-flex align-items-center py-3 px-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mobileInformasi">
+
+                    <span class="persi-nav-link">Informasi</span>
+                    <span class="ms-auto">
+                        <i class="bi bi-chevron-down chevron-icon"></i>
+                    </span>
+                </button>
+
+                <div class="collapse" id="mobileInformasi">
+                    <div class="ps-3 pb-2">
+                        <a class="d-block py-2 text-decoration-none" href="#">Berita</a>
+                        <a class="d-block py-2 text-decoration-none" href="{{ route('agenda.index') }}">Agenda</a>
+                        <a class="d-block py-2 text-decoration-none" href="#">Informasi Penting</a>
+                    </div>
+                </div>
+            </div>
+
+            <a class="persi-nav-link py-3 border-bottom" href="{{ route('rs-anggota.index') }}">
+                RS Anggota
+            </a>
+
+            <a class="persi-nav-link py-3 border-bottom" href="#">
+                E-Library
+            </a>
+
+            <a class="persi-nav-link py-3 border-bottom" href="#">
+                Kontak
+            </a>
+
+            <a href="#" class="btn-persi btn-persi-primary mt-3 justify-content-center">
+                Portal Anggota
+            </a>
         </div>
     </div>
 

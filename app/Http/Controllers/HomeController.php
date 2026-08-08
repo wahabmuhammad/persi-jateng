@@ -32,6 +32,7 @@ class HomeController extends Controller
         $totalRS = 250;
         $totalKota = 35;
 
+
         if (File::exists($jsonPath)) {
             $jsonContent = File::get($jsonPath);
             $rumahSakit = json_decode($jsonContent, true);
@@ -42,7 +43,71 @@ class HomeController extends Controller
             }
         }
 
-        return view('web.home', compact('sambutan', 'totalRS', 'totalKota'));
+        // Data Agenda (dari PDF)
+        $agendaItems = [
+            [
+                'title' => 'Seminar: Masa Depan Pendanaan Kesehatan',
+                'subtitle' => 'Transformasi dan Keberlanjutan RS',
+                'date' => 'Kamis, 20 Agustus 2026',
+                'time' => '07.30 - 12.30 WIB',
+                'location' => 'Ballroom Rama Shinta, Hotel Patra Jasa',
+                'type' => 'seminar',
+                'link' => route('agenda.index'),
+                'highlight' => true
+            ],
+            [
+                'title' => 'Workshop: Optimalisasi Pendapatan RS dengan AI',
+                'subtitle' => 'Manajemen Klaim BPJS Kesehatan',
+                'date' => 'Jumat, 21 Agustus 2026',
+                'time' => '08.00 - 16.00 WIB',
+                'location' => 'Ruang Srikandi, Hotel Patra Jasa',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false
+            ],
+            [
+                'title' => 'Rapat Anggota Tahunan PERSI Jateng',
+                'subtitle' => 'Strategi Ketahanan RS di Tengah Turbulensi',
+                'date' => 'Kamis, 20 Agustus 2026',
+                'time' => '13.30 - 16.30 WIB',
+                'location' => 'Ballroom Rama Shinta, Hotel Patra Jasa',
+                'type' => 'rapat',
+                'link' => route('agenda.index'),
+                'highlight' => false
+            ]
+        ];
+
+        // Data Berita
+        $beritaItems = [
+            [
+                'title' => 'Update Standar Akreditasi Rumah Sakit 2026',
+                'excerpt' => 'Perubahan signifikan dalam standar akreditasi rumah sakit yang akan berlaku mulai tahun 2026. Simak penjelasan lengkapnya.',
+                'category' => 'Regulasi',
+                'date' => '28 Juli 2026',
+                'image' => 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+                'link' => '#'
+            ],
+            [
+                'title' => 'Rakerwil PERSI Jateng Bahas Penguatan Layanan Rujukan',
+                'excerpt' => 'Rapat Kerja Wilayah PERSI Jawa Tengah membahas strategi penguatan sistem rujukan antar rumah sakit anggota.',
+                'category' => 'Kegiatan',
+                'date' => '15 Juli 2026',
+                'image' => 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80',
+                'link' => '#'
+            ],
+            [
+                'title' => 'Pelatihan Patient Safety Angkatan XIV Dibuka',
+                'excerpt' => 'Pendaftaran pelatihan Patient Safety angkatan XIV dibuka untuk seluruh rumah sakit anggota PERSI Jawa Tengah.',
+                'category' => 'Mutu & Keselamatan',
+                'date' => '2 Juli 2026',
+                'image' => 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80',
+                'link' => '#'
+            ]
+        ];
+
+        return view('web.home', compact('sambutan', 'totalRS', 'totalKota', 'agendaItems', 'beritaItems'));
+
+        // return view('web.home', compact('sambutan', 'totalRS', 'totalKota'));
     }
 
     public function sambutanDetail($jenis)

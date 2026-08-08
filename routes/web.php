@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgendaController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\rsanggotaController;
@@ -19,6 +20,12 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sambutan/{jenis}', [HomeController::class, 'sambutanDetail'])->name('sambutan.detail');
+// Agenda routes
+Route::prefix('agenda')->name('agenda.')->group(function () {
+    Route::get('/', [AgendaController::class, 'index'])->name('index');
+    Route::get('/undangan', [AgendaController::class, 'undangan'])->name('undangan');
+    Route::get('/stream-pdf', [AgendaController::class, 'streamPdf'])->name('stream-pdf');
+});
 // RS Anggota routes
 Route::prefix('rs-anggota')->name('rs-anggota.')->group(function () {
     Route::get('/', [rsanggotaController::class, 'index'])->name('index');

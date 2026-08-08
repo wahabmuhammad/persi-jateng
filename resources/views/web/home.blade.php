@@ -155,113 +155,9 @@
     </section> --}}
 
     <!-- VISI & MISI Section -->
-    {{-- <section id="visi-misi" class="section-py bg-white">
-        <div class="container-persi">
-            <div class="text-center mb-5 reveal is-visible">
-                <span class="section-eyebrow">Visi &amp; Misi</span>
-                <h2 class="section-title font-display">Arah dan Tujuan PERSI Jawa Tengah</h2>
-            </div>
-            <div class="row g-4">
-                <!-- Visi -->
-                <div class="col-lg-5 reveal is-visible">
-                    <div class="visi-card">
-                        <div class="icon-badge"><svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-                                <path d="M12 2 3 6v6c0 5 3.8 9.4 9 10 5.2-.6 9-5 9-10V6l-9-4Z" stroke="currentColor"
-                                    stroke-width="1.8" stroke-linejoin="round" />
-                                <path d="M9 13l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg></div>
-                        <h3 class="font-display">Visi</h3>
-                        <p style="font-size:1rem;color:var(--ink-900);font-weight:500;">PERSI sebagai organisasi
-                            perumahsakitan yang handal dan mampu menjadi induk dan tumpuan bagi Rumah Sakit di Jawa
-                            Tengah.</p>
-                    </div>
-                </div>
-                <!-- Misi -->
-                <div class="col-lg-7 reveal is-visible">
-                    <div class="visi-card">
-                        <div class="icon-badge"><svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-                                <path d="M3 8l9-5 9 5-9 5-9-5Z" stroke="currentColor" stroke-width="1.8"
-                                    stroke-linejoin="round" />
-                                <path d="M3 13v6l9 5 9-5v-6" stroke="currentColor" stroke-width="1.8"
-                                    stroke-linejoin="round" />
-                                <path d="M3 8v6l9 5 9-5V8" stroke="currentColor" stroke-width="1.8"
-                                    stroke-linejoin="round" />
-                            </svg></div>
-                        <h3 class="font-display">Misi</h3>
-                        <ol style="padding-left:20px;margin-bottom:0;">
-                            <li style="margin-bottom:8px;">Memperjuangkan kepentingan anggota PERSI yang terkait :
-                                Pemerintah, Swasta maupun Masyarakat</li>
-                            <li style="margin-bottom:8px;">Membentuk dan mengembangkan networking antara anggota
-                                dengan teknologi informasi</li>
-                            <li style="margin-bottom:8px;">Meningkatkan Profesionalisme dalam pengelolaan rumah
-                                sakit
-                                menuju masyarakat sehat</li>
-                            <li style="margin-bottom:8px;">Melakukan analisis strategis yang meningkatkan mutu
-                                anggota PERSI dan saling menguntungkan</li>
-                            <li style="margin-bottom:0;">Mendorong rumah sakit di Jawa Tengah dalam meningkatkan
-                                mutu hingga setaraf dengan Rumah Sakit di Asia Pasifik</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+
     <!-- Hero Section -->
-    {{-- <section class="hero-section position-relative" style="padding-top:64px;padding-bottom:56px;">
-        <div class="hero-bg-kawung kawung-texture position-absolute top-0 start-0 w-100 h-100" style="z-index:-1;"
-            aria-hidden="true"></div>
-        <div class="container-persi">
-            <div class="row align-items-center gy-5">
-                <div class="col-lg-6 reveal is-visible">
-                    <span class="hero-eyebrow mb-4"><span class="dot"></span> Perhimpunan Rumah Sakit Seluruh
-                        Indonesia</span>
-                    <h1 class="hero-title font-display mt-3 mb-4">Menguatkan <span class="accent-underline">rumah
-                            sakit</span> Jawa Tengah yang aman, bermutu, dan berdaya saing</h1>
-                    <p class="hero-lede mb-4">PERSI Wilayah Jawa Tengah menghimpun rumah sakit se-Jawa Tengah untuk
-                        berkolaborasi dalam advokasi kebijakan, peningkatan mutu layanan, dan pengembangan sumber daya
-                        perumahsakitan di 35 kabupaten/kota.</p>
-                    <div class="d-flex flex-wrap gap-3 mb-5">
-                        <a href="#" class="btn-persi btn-persi-primary">Bergabung Sebagai Anggota <svg width="16"
-                                height="16" viewBox="0 0 24 24" fill="none">
-                                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></a>
-                        <a href="#visi-misi" class="btn-persi btn-persi-outline">Visi &amp; Misi</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="hero-stat">
-                            <div class="num">
-                                <span data-counter data-counter-to="{{ $totalRS ?? 250 }}">0</span>
-                                +</div>
-                            <div class="label">RS Anggota</div>
-                        </div>
-                        <div class="hero-stat">
-                            <div class="num">
-                                <span data-counter data-counter-to="{{ $totalKota ?? 42 }}">0</span>
-                                </div>
-                            <div class="label">Kab / Kota</div>
-                        </div>
-                        <div class="hero-stat">
-                            <div class="num">
-                                <span data-counter data-counter-to="40">0</span>
-                            </div>
-                            <div class="label">Tahun Mengabdi</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 reveal is-visible">
-                    <div class="position-relative">
-                        <div class="hero-media"
-                            style="border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/3.1;">
-                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1000&q=80"
-                                alt="Pelantikan Pengurus" style="width:100%;height:100%;object-fit:cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+
     <section class="hero-section position-relative">
         <div class="hero-bg-kawung kawung-texture" aria-hidden="true"></div>
         <div class="container-persi">
@@ -599,6 +495,111 @@
                         </ol>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Agenda Section -->
+    <section class="section-py bg-white">
+        <div class="container-persi">
+            <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-3 reveal is-visible">
+                <div>
+                    <span class="section-eyebrow">Agenda</span>
+                    <h2 class="section-title font-display">Kegiatan PERSI Jateng</h2>
+                </div>
+                <a href="{{ route('agenda.index') }}" class="btn-persi btn-persi-outline">
+                    Lihat Semua Agenda <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+
+            <div class="row g-4">
+                @foreach ($agendaItems as $item)
+                    <div class="col-md-4 reveal is-visible">
+                        <a href="{{ $item['link'] }}" class="text-decoration-none">
+                            <div class="agenda-card-home"
+                                style="background:var(--surface);border-radius:var(--radius-md);border:1px solid var(--line);padding:24px 22px;height:100%;transition:transform 0.22s ease,box-shadow 0.22s ease,border-color 0.22s ease;">
+                                <div class="d-flex align-items-start justify-content-between mb-2">
+                                    <span class="badge"
+                                        style="background:{{ $item['type'] == 'seminar' ? 'var(--brass-400)' : ($item['type'] == 'workshop' ? 'var(--sage-600)' : 'var(--sage-800)') }};color:{{ $item['type'] == 'seminar' ? 'var(--ink-900)' : '#fff' }};font-weight:700;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.06em;padding:4px 12px;border-radius:var(--radius-pill);">
+                                        {{ ucfirst($item['type']) }}
+                                    </span>
+                                    @if ($item['highlight'])
+                                        <span class="badge"
+                                            style="background:#dc3545;color:#fff;font-weight:700;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.06em;padding:3px 10px;border-radius:var(--radius-pill);animation:pulse-badge 2s ease-in-out infinite;">
+                                            <i class="bi bi-broadcast me-1"></i> Live
+                                        </span>
+                                    @endif
+                                </div>
+                                <h4 class="font-display"
+                                    style="font-size:1.05rem;margin-bottom:4px;color:var(--ink-900);">{{ $item['title'] }}
+                                </h4>
+                                <p class="text-muted" style="font-size:0.88rem;margin-bottom:12px;">
+                                    {{ $item['subtitle'] }}</p>
+                                <div style="font-size:0.82rem;color:var(--text-muted);">
+                                    <div class="d-flex align-items-center gap-2 mb-1">
+                                        <i class="bi bi-calendar3" style="color:var(--sage-500);width:16px;"></i>
+                                        <span>{{ $item['date'] }}</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 mb-1">
+                                        <i class="bi bi-clock" style="color:var(--sage-500);width:16px;"></i>
+                                        <span>{{ $item['time'] }}</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-geo-alt" style="color:var(--sage-500);width:16px;"></i>
+                                        <span>{{ $item['location'] }}</span>
+                                    </div>
+                                </div>
+                                <div class="mt-3 pt-2 border-top" style="border-color:var(--line);">
+                                    <span class="text-sage-600 fw-semibold"
+                                        style="font-size:0.85rem;display:inline-flex;align-items:center;gap:4px;">
+                                        Detail <i class="bi bi-chevron-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <section class="section-py">
+        <div class="container-persi">
+            <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-3 reveal is-visible">
+                <div>
+                    <span class="section-eyebrow">Berita</span>
+                    <h2 class="section-title font-display">Informasi Terkini</h2>
+                </div>
+                <a href="#" class="btn-persi btn-persi-outline">
+                    Lihat Semua Berita <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+
+            <div class="row g-4">
+                @foreach ($beritaItems as $berita)
+                    <div class="col-md-4 reveal is-visible">
+                        <a href="{{ $berita['link'] }}" class="text-decoration-none">
+                            <div class="news-card"
+                                style="background:var(--surface);border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--line);height:100%;transition:transform 0.22s ease,box-shadow 0.22s ease;">
+                                <div class="thumb"
+                                    style="aspect-ratio:16/10;overflow:hidden;background:var(--sage-100);">
+                                    <img src="{{ $berita['image'] }}" alt="{{ $berita['title'] }}"
+                                        style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;">
+                                </div>
+                                <div class="body" style="padding:18px 20px 22px;">
+                                    <span class="cat"
+                                        style="font-family:var(--font-mono);font-size:0.68rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--sage-600);font-weight:700;">{{ $berita['category'] }}</span>
+                                    <h4 class="font-display"
+                                        style="font-size:1.02rem;margin:8px 0 10px;line-height:1.35;color:var(--ink-900);">
+                                        {{ $berita['title'] }}</h4>
+                                    <p
+                                        style="color:var(--text-muted);font-size:0.88rem;line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+                                        {{ $berita['excerpt'] }}</p>
+                                    <span class="date" style="font-size:0.78rem;color:var(--text-muted);"><i
+                                            class="bi bi-calendar3 me-1"></i>{{ $berita['date'] }}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>
