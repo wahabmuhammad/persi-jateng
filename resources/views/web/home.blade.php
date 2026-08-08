@@ -528,6 +528,22 @@
                                             <i class="bi bi-broadcast me-1"></i> Live
                                         </span>
                                     @endif
+                                    @if (isset($item['status']) && $item['status'] === 'Full')
+                                        <span class="badge"
+                                            style="background:#dc3545;color:#fff;font-weight:700;font-size:0.6rem;padding:3px 10px;border-radius:var(--radius-pill);animation:pulse-badge 2s ease-in-out infinite;">
+                                            <i class="bi bi-x-circle me-1"></i> FULL
+                                        </span>
+                                    @elseif (isset($item['status']) && $item['status'] === '')
+                                        {{-- <span class="badge"
+                                            style="background:#6c757d;color:#fff;font-weight:600;font-size:0.6rem;padding:3px 10px;border-radius:var(--radius-pill);">
+                                            <i class="bi bi-lock me-1"></i> 
+                                        </span> --}}
+                                    @else
+                                        <span class="badge"
+                                            style="background:#28a745;color:#fff;font-weight:600;font-size:0.6rem;padding:3px 10px;border-radius:var(--radius-pill);">
+                                            <i class="bi bi-check-circle me-1"></i> Tersedia
+                                        </span>
+                                    @endif
                                 </div>
                                 <h4 class="font-display"
                                     style="font-size:1.05rem;margin-bottom:4px;color:var(--ink-900);">{{ $item['title'] }}

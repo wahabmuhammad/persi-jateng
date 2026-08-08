@@ -154,16 +154,30 @@
 
                 <div class="row g-4">
                     @foreach ($agenda['workshop'] as $index => $workshop)
+                    {{-- @dd($workshop) --}}
                         <div class="col-md-6 col-lg-4">
                             <div class="agenda-card"
                                 style="background:var(--surface);border-radius:var(--radius-md);border:1px solid var(--line);overflow:hidden;height:100%;transition:transform 0.25s ease,box-shadow 0.25s ease;">
                                 <div class="card-header p-3"
                                     style="background:var(--sage-50);border-bottom:1px solid var(--line);">
                                     <div class="d-flex justify-content-between align-items-start">
-                                        <span class="badge"
-                                            style="background:var(--sage-600);color:#fff;font-weight:700;font-size:0.7rem;padding:4px 12px;border-radius:var(--radius-pill);">
-                                            Workshop {{ $index + 1 }}
-                                        </span>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="badge"
+                                                style="background:var(--sage-600);color:#fff;font-weight:700;font-size:0.7rem;padding:4px 12px;border-radius:var(--radius-pill);">
+                                                Workshop {{ $index + 1 }}
+                                            </span>
+                                            @if (isset($workshop['status']) && $workshop['status'] === 'Full')
+                                                <span class="badge"
+                                                    style="background:#dc3545;color:#fff;font-weight:700;font-size:0.6rem;padding:3px 10px;border-radius:var(--radius-pill);animation:pulse-badge 2s ease-in-out infinite;">
+                                                    <i class="bi bi-x-circle me-1"></i> FULL
+                                                </span>
+                                            @else
+                                                <span class="badge"
+                                                    style="background:#28a745;color:#fff;font-weight:600;font-size:0.6rem;padding:3px 10px;border-radius:var(--radius-pill);">
+                                                    <i class="bi bi-check-circle me-1"></i> Tersedia
+                                                </span>
+                                            @endif
+                                        </div>
                                         <span class="text-muted" style="font-size:0.7rem;"><i
                                                 class="bi bi-people me-1"></i>{{ $workshop['ruang'] }}</span>
                                     </div>
@@ -177,7 +191,14 @@
                                 <div class="card-body p-3">
                                     <h4 class="font-display"
                                         style="font-size:0.95rem;margin-bottom:10px;line-height:1.4;">
-                                        {{ $workshop['tema'] }}</h4>
+                                        {{ $workshop['tema'] }}
+                                        @if (isset($workshop['status']) && $workshop['status'] == 'full')
+                                            <span
+                                                style="font-size:0.7rem;color:#dc3545;font-weight:600;display:block;margin-top:4px;">
+                                                <i class="bi bi-exclamation-triangle me-1"></i> Kuota telah penuh
+                                            </span>
+                                        @endif
+                                    </h4>
                                     <ul class="list-unstyled mb-0" style="font-size:0.82rem;line-height:1.5;">
                                         @foreach ($workshop['subtema'] as $subtema)
                                             <li class="d-flex align-items-start gap-2 mb-1">
@@ -246,6 +267,18 @@
 
         .hero-section-inner {
             background: linear-gradient(135deg, var(--sage-800) 0%, var(--sage-600) 100%);
+        }
+
+        @keyframes pulse-badge {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
         }
     </style>
 @endsection

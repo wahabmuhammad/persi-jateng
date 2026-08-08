@@ -67,6 +67,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 16.00 WIB',
                     'ruang' => 'Ruang Srikandi (50 peserta)',
                     'tema' => 'Workshop I: "Optimalisasi Pendapatan RS Melalui Penggunaan AI dalam Manajemen Klaim Peserta BPJS Kesehatan"',
+                    'status' => 'Full',
                     'subtema' => [
                         'Manajemen Klaim JKN dan Sharing RS Pengguna Program Medminutes - dr. Samsul Anwar, M.M. (Direktur RSUD dr. Soetrasno Rembang)',
                         'Peran AI dalam Manajemen Klaim JKN - Kemal Falatehan, B.Eng, M.Sc, MBA (Direktur PT Imperial Teknologi Indonesia)',
@@ -79,6 +80,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 16.00 WIB',
                     'ruang' => 'Ruang Arimbi 1 (35 peserta)',
                     'tema' => 'Workshop II: "Penyusunan Unit Cost Pelayanan Pasien BPJS Kesehatan"',
+                    'status' => 'Full',
                     'subtema' => [
                         'Konsep Dasar Unit Cost Pelayanan Pasien BPJS Kesehatan - dr. M. Asro Abdih Y., Sp.U, MBA (Direktur RS Muhammadiyah Lamongan)',
                         'Metode Perhitungan Unit Cost dan Pengelompokan Biaya - dr. M. Asro Abdih Y., Sp.U, MBA (Direktur RS Muhammadiyah Lamongan)',
@@ -91,6 +93,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 16.00 WIB',
                     'ruang' => 'Ruang Arimbi 2 (35 peserta)',
                     'tema' => 'Workshop III: "Peran PPA dalam Patient Experience"',
+                    'status' => 'Tersedia',
                     'subtema' => [
                         'PPA dan Konsep Patient Experience - Dr. dr. Andreasta Meliala, M.Kes, MAS (Direktur Pusat Kebijakan dan Manajemen Kesehatan FKKMK UGM)',
                         'Pengukuran Kualitas Pelayanan dan Kepuasan Pasien - dr. H. Rachim Dinata Marsidi, Sp.B, FINAC, M.Kes (Direktur Utama RS Hasan Sadikin Bandung)',
@@ -103,6 +106,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 14.00 WIB',
                     'ruang' => 'Ruang Arimbi 1 (35 peserta)',
                     'tema' => 'Workshop IV: "Efisiensi Supply Chain Farmasi"',
+                    'status' => 'Full',
                     'subtema' => [
                         'Strategi Pengadaan Obat & Alkes yang Tangguh dan Efisien - Yuliana Setyarini, S. Farm, Apt., M.K.M. (RS Kariadi Semarang)',
                         'Manajemen Stok & Forecasting Cerdas untuk Mencegah Kekosongan Obat dan Obat Expired - Yuliana Setyarini, S. Farm, Apt., M.K.M.',
@@ -115,6 +119,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 14.00 WIB',
                     'ruang' => 'Ruang Arimbi 2 (35 peserta)',
                     'tema' => 'Workshop V: "Zero Harm Hospital: Strategi Pencegahan dan Penanganan Kejadian Sentinel oleh PPA"',
+                    'status' => 'Tersedia',
                     'subtema' => [
                         'Konsep Zero Harm Hospital dan Budaya Keselamatan Pasien - dr. Arjati W. Daud, MARS, FISQua, CERG, ORGP, QRMA, CGRCP',
                         'Investigasi dan Pelaporan Kejadian Sentinel serta Root Cause Analysis (RCA) - dr. Arjati W. Daud, MARS, FISQua, CERG, ORGP, QRMA, CGRCP',
@@ -127,6 +132,7 @@ class AgendaController extends Controller
                     'waktu' => '08.00 - 14.00 WIB',
                     'ruang' => 'Ruang Srikandi (50 peserta)',
                     'tema' => 'Workshop VI: "Clinical Pathway yang Cost Effective"',
+                    'status' => 'Full',
                     'subtema' => [
                         'Bridging the Gap: Mentransformasikan Panduan Praktik Klinis/PPK menjadi Clinical Pathway yang Efisien - Dr. dr. Ediansyah, MARS, MM (Direktur RS An Nisa Tangerang)',
                         'Penerapan Formularium RS berbasis Cost-Effectiveness Analysis/CEA dalam Penyusunan Clinical Pathway - Dr. dr. Ediansyah, MARS, MM',
@@ -173,42 +179,48 @@ class AgendaController extends Controller
                     'tema' => 'Optimalisasi Pendapatan RS Melalui Penggunaan AI dalam Manajemen Klaim Peserta BPJS Kesehatan',
                     'tanggal' => '21 Agustus 2026',
                     'kuota' => '50 peserta',
-                    'biaya' => 'Rp 1.100.000'
+                    'biaya' => 'Rp 1.100.000',
+                    'status' => 'Full'
                 ],
                 [
                     'nama' => 'Workshop II',
                     'tema' => 'Penyusunan Unit Cost Pelayanan Pasien BPJS Kesehatan',
                     'tanggal' => '21 Agustus 2026',
                     'kuota' => '35 peserta',
-                    'biaya' => 'Rp 1.100.000'
+                    'biaya' => 'Rp 1.100.000',
+                    'status' => 'Full'
                 ],
                 [
                     'nama' => 'Workshop III',
                     'tema' => 'Peran PPA dalam Patient Experience',
                     'tanggal' => '21 Agustus 2026',
                     'kuota' => '35 peserta',
-                    'biaya' => 'Rp 1.100.000'
+                    'biaya' => 'Rp 1.100.000',
+                    'status' => 'Tersedia'
                 ],
                 [
                     'nama' => 'Workshop IV',
                     'tema' => 'Efisiensi Supply Chain Farmasi',
                     'tanggal' => '22 Agustus 2026',
                     'kuota' => '35 peserta',
-                    'biaya' => 'Rp 1.000.000'
+                    'biaya' => 'Rp 1.000.000',
+                    'status' => 'Full'
                 ],
                 [
                     'nama' => 'Workshop V',
                     'tema' => 'Zero Harm Hospital: Strategi Pencegahan dan Penanganan Kejadian Sentinel oleh PPA',
                     'tanggal' => '22 Agustus 2026',
                     'kuota' => '35 peserta',
-                    'biaya' => 'Rp 1.000.000'
+                    'biaya' => 'Rp 1.000.000',
+                    'status' => 'Tersedia'
                 ],
                 [
                     'nama' => 'Workshop VI',
                     'tema' => 'Clinical Pathway yang Cost Effective',
                     'tanggal' => '22 Agustus 2026',
                     'kuota' => '50 peserta',
-                    'biaya' => 'Rp 1.000.000'
+                    'biaya' => 'Rp 1.000.000',
+                    'status' => 'Full'
                 ]
             ],
             'bank' => [

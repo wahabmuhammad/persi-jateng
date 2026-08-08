@@ -53,17 +53,74 @@ class HomeController extends Controller
                 'location' => 'Ballroom Rama Shinta, Hotel Patra Jasa',
                 'type' => 'seminar',
                 'link' => route('agenda.index'),
-                'highlight' => true
+                'highlight' => false,
+                'status' => 'Tersedia'
             ],
             [
-                'title' => 'Workshop: Optimalisasi Pendapatan RS dengan AI',
+                'title' => 'Workshop I: Optimalisasi Pendapatan RS Melalui Penggunaan AI dalam',
                 'subtitle' => 'Manajemen Klaim BPJS Kesehatan',
                 'date' => 'Jumat, 21 Agustus 2026',
                 'time' => '08.00 - 16.00 WIB',
-                'location' => 'Ruang Srikandi, Hotel Patra Jasa',
+                'location' => 'Ruang Srikandi (50 peserta)',
                 'type' => 'workshop',
                 'link' => route('agenda.index'),
-                'highlight' => false
+                'highlight' => false,
+                'status' => 'Full'
+            ],
+            [
+                'title' => 'Workshop II: Penyusunan Unit Cost Pelayanan Pasien BPJS Kesehatan',
+                'subtitle' => '',
+                'date' => 'Jumat, 21 Agustus 2026',
+                'time' => '08.00 - 16.00 WIB',
+                'location' => 'Ruang Arimbi 1 (35 peserta)',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false,
+                'status' => 'Full'
+            ],
+            [
+                'title' => 'Workshop III: Peran PPA dalam Patient Experience',
+                'subtitle' => '',
+                'date' => 'Jumat, 21 Agustus 2026',
+                'time' => '08.00 - 16.00 WIB',
+                'location' => 'Ruang Arimbi 2 (35 peserta)',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false,
+                'status' => 'Tersedia'
+            ],
+            [
+                'title' => 'Workshop IV: Efisiensi Supply Chain Farmasi',
+                'subtitle' => '',
+                'date' => 'Sabtu, 22 Agustus 2026',
+                'time' => '08.00 - 14.00 WIB',
+                'location' => 'Ruang Arimbi 1 (35 peserta)',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false,
+                'status' => 'Full'
+            ],
+            [
+                'title' => 'Workshop V: Zero Harm Hospital: Strategi Pencegahan dan Penanganan Kejadian Sentinel oleh PPA',
+                'subtitle' => '',
+                'date' => 'Sabtu, 22 Agustus 2026',
+                'time' => '08.00 - 14.00 WIB',
+                'location' => 'Ruang Arimbi 2 (35 peserta)',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false,
+                'status' => 'Tersedia'
+            ],
+            [
+                'title' => 'Workshop VI: "Clinical Pathway yang Cost Effective"',
+                'subtitle' => '',
+                'date' => 'Sabtu, 22 Agustus 2026',
+                'time' => '08.00 - 14.00 WIB',
+                'location' => 'Ruang Srikandi (50 peserta)',
+                'type' => 'workshop',
+                'link' => route('agenda.index'),
+                'highlight' => false,
+                'status' => 'Full'
             ],
             [
                 'title' => 'Rapat Anggota Tahunan PERSI Jateng',
@@ -73,7 +130,8 @@ class HomeController extends Controller
                 'location' => 'Ballroom Rama Shinta, Hotel Patra Jasa',
                 'type' => 'rapat',
                 'link' => route('agenda.index'),
-                'highlight' => false
+                'highlight' => false,
+                'status' => ''
             ]
         ];
 
