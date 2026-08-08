@@ -236,7 +236,7 @@ class AgendaController extends Controller
         // // }
 
         return view('agenda.streampdf', [
-            'pdfUrl' => asset('storage/pdf/241. FINAL UNDANGAN PESERTA SEMINAR, WORKSHOP & RAPAT ANGGOTA PD PERTEMUAN TAHUNAN PERSI WIL JATENG 2026 + Flyer.pdf')
+            'pdfUrl' => asset('/pdf/241. FINAL UNDANGAN PESERTA SEMINAR, WORKSHOP & RAPAT ANGGOTA PD PERTEMUAN TAHUNAN PERSI WIL JATENG 2026 + Flyer.pdf')
         ]);
     }
 }
