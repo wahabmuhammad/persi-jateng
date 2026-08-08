@@ -216,7 +216,7 @@ class AgendaController extends Controller
                 'nomor' => '135 00 13367519',
                 'atas_nama' => 'PERSI DAERAH JAWA TENGAH'
             ],
-            'link_pendaftaran' => 'https://bit.ly/PertemuanTahunanPERSIITG2026',
+            'link_pendaftaran' => 'https://bit.ly/PertemuanPameran-PERSIJTG2026',
             'kontak' => [
                 ['nama' => 'Ambar Susanti, S.Sos', 'wa' => '+62 858-0903-2687'],
                 ['nama' => 'Marina Kristiyanti, SE', 'wa' => '+62 817-373-033']
