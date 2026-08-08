@@ -874,7 +874,7 @@
     </section>
 
     <!-- Agenda & Berita -->
-    <section class="section-py bg-white">
+    {{-- <section class="section-py bg-white">
         <div class="container-persi">
             <div class="d-flex justify-content-between align-items-end mb-5 flex-wrap gap-3 reveal is-visible">
                 <div><span class="section-eyebrow">Informasi Terkini</span>
@@ -954,7 +954,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Wilayah Marquee -->
     <section class="section-py pt-0">

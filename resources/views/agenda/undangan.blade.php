@@ -43,7 +43,8 @@
                     <!-- Kop Surat -->
                     <div class="text-center border-bottom pb-4 mb-4">
                         <div class="d-flex align-items-center justify-content-center gap-3">
-                            <div style="width:60px;height:60px;border-radius:12px;background:var(--sage-700);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-display);font-weight:800;font-size:1.6rem;">P</div>
+                            {{-- <div style="width:60px;height:60px;border-radius:12px;background:var(--sage-700);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-display);font-weight:800;font-size:1.6rem;">P</div> --}}
+                            <img src="{{ asset('img/persi-logo.png') }}" alt="Logo PERSI" style="width:60px;height:60px;object-fit:contain;">
                             <div>
                                 <h4 class="font-display mb-0" style="font-size:1.3rem;">PERSI JAWA TENGAH</h4>
                                 <p class="text-muted small mb-0">Perhimpunan Rumah Sakit Seluruh Indonesia</p>
