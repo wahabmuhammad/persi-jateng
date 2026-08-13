@@ -8,8 +8,8 @@
     <title>@yield('title', 'PERSI Jawa Tengah')</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('img/image.png') }}" sizes="32x32">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/image.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/persi-logo.png') }}" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/persi-logo.png') }}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
