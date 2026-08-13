@@ -154,7 +154,7 @@
 
                 <div class="row g-4">
                     @foreach ($agenda['workshop'] as $index => $workshop)
-                    {{-- @dd($workshop) --}}
+                        {{-- @dd($workshop) --}}
                         <div class="col-md-6 col-lg-4">
                             <div class="agenda-card"
                                 style="background:var(--surface);border-radius:var(--radius-md);border:1px solid var(--line);overflow:hidden;height:100%;transition:transform 0.25s ease,box-shadow 0.25s ease;">
@@ -255,6 +255,86 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wilayah Marquee -->
+    <section class="section-py pt-0">
+        <div class="container-persi text-center mb-4 reveal is-visible">
+            <span class="section-eyebrow">Supported By:</span>
+            <h2 class="section-title font-display">Acara ini didukung oleh</h2>
+        </div>
+        <div class="wilayah-marquee overflow-hidden reveal is-visible">
+            <div class="wilayah-marquee-track">
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/vektor_ups.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/cv_triargakencana.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip" style="background:var(--sage-900);border:1px solid var(--line);">
+                    <img src="{{ asset('img/sponsor/saranadar_alkesindo.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/andson_sarana.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/adn_medical.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/pt_dentalities.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/pt_dianlanggeng.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/first_medical.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/holan_medik.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/mentari_prima.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/polaris.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/samudra_indonesia.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/sanidata.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/sinarmu.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/solana_medika.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/solocone.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/visimata_bima.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
             </div>
         </div>
     </section>
