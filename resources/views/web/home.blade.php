@@ -889,88 +889,85 @@
         </div>
     </section>
 
-    <!-- Agenda & Berita -->
-    {{-- <section class="section-py bg-white">
-        <div class="container-persi">
-            <div class="d-flex justify-content-between align-items-end mb-5 flex-wrap gap-3 reveal is-visible">
-                <div><span class="section-eyebrow">Informasi Terkini</span>
-                    <h2 class="section-title font-display">Agenda &amp; Berita PERSI Jateng</h2>
-                </div>
-                <a href="#" class="btn-persi btn-persi-outline">Lihat Semua Berita</a>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 reveal is-visible">
-                    <div class="event-banner">
-                        <div>
-                            <span class="badge-live">Segera Berlangsung</span>
-                            <h3 class="font-display">Seminar Nasional PERSI XXII &amp; Hospital Expo XXXVIII 2026
-                            </h3>
-                            <p class="mt-2 mb-0" style="color:#d7e2d1;font-size:0.9rem;">"Rumah Sakit Tumbuh dan
-                                Tangguh di Era Kecerdasan Artifisial"</p>
-                            <div class="meta">
-                                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none">
-                                        <rect x="3" y="5" width="18" height="16" rx="2"
-                                            stroke="currentColor" stroke-width="1.8" />
-                                        <path d="M3 10h18" stroke="currentColor" stroke-width="1.8" />
-                                    </svg> 7–10 Oktober 2026</span>
-                                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none">
-                                        <path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z" stroke="currentColor"
-                                            stroke-width="1.8" />
-                                        <circle cx="12" cy="10" r="2.5" stroke="currentColor"
-                                            stroke-width="1.8" />
-                                    </svg> ICE BSD, Tangerang</span>
-                            </div>
-                        </div>
-                        <a href="#" class="btn-persi btn-persi-accent mt-4 justify-content-center">Info
-                            Selengkapnya</a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row g-4">
-                        <div class="col-md-4 reveal is-visible">
-                            <a href="#" class="text-decoration-none">
-                                <div class="news-card">
-                                    <div class="thumb"><img
-                                            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
-                                            alt=""></div>
-                                    <div class="body"><span class="cat">Regulasi</span>
-                                        <h4 class="font-display">Update Standar Akreditasi Rumah Sakit 2026: Apa
-                                            yang Berubah</h4><span class="date">28 Jul 2026</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 reveal is-visible">
-                            <a href="#" class="text-decoration-none">
-                                <div class="news-card">
-                                    <div class="thumb"><img
-                                            src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80"
-                                            alt=""></div>
-                                    <div class="body"><span class="cat">Kegiatan</span>
-                                        <h4 class="font-display">Rakerwil PERSI Jateng Bahas Penguatan Layanan
-                                            Rujukan</h4><span class="date">15 Jul 2026</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 reveal is-visible">
-                            <a href="#" class="text-decoration-none">
-                                <div class="news-card">
-                                    <div class="thumb"><img
-                                            src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
-                                            alt=""></div>
-                                    <div class="body"><span class="cat">Mutu &amp; Keselamatan</span>
-                                        <h4 class="font-display">Pelatihan Patient Safety Angkatan XIV Dibuka untuk
-                                            RS Anggota</h4><span class="date">02 Jul 2026</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <!-- Sponsor-->
+    <section class="section-py pt-0">
+        <div class="container-persi text-center mb-4 reveal is-visible">
+            <span class="section-eyebrow">Supported By:</span>
+            <h2 class="section-title font-display">Acara ini didukung oleh</h2>
+        </div>
+        <div class="wilayah-marquee overflow-hidden reveal is-visible">
+            <div class="wilayah-marquee-track">
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/vektor_ups.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/cv_triargakencana.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip" style="background:var(--sage-900);border:1px solid var(--line);">
+                    <img src="{{ asset('img/sponsor/saranadar_alkesindo.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/andson_sarana.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/adn_medical.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/pt_dentalities.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/pt_dianlanggeng.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/first_medical.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/holan_medik.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/mentari_prima.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/polaris.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/samudra_indonesia.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/sanidata.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/sinarmu.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/solana_medika.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/solocone.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
+                <span class="wilayah-chip">
+                    <img src="{{ asset('img/sponsor/visimata_bima.png') }}" alt="Logo PERSI Jateng" 
+                        style="height: 50px; object-fit: contain;">
+                </span>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <!-- Wilayah Marquee -->
     <section class="section-py pt-0">
